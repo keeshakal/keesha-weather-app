@@ -33,15 +33,15 @@ body {
     margin: 50px auto;
     padding: 30px;
     background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 28px 0 #67595E;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: 1px solid #E8B4B8;
   }
   
   a {
-    color: #f2f4f8;
+    color: #E8B4B8;
     text-decoration: none;
   }
   
@@ -54,7 +54,7 @@ body {
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    color: #ffffff;
+    color: #EED6D3;
     width: 80%;
     border-radius: 6px;
     border: none;
@@ -66,12 +66,12 @@ body {
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    color: #ffffff;
+    color: #67595E;
     border-radius: 6px;
     border: none;
     font-size: 16px;
-    font-weight: 600;
-    padding: 15px 30px;
+    font-weight: 500;
+    padding: 15px 25px;
     margin-left: 5px;
   }
   
@@ -88,7 +88,7 @@ body {
     margin: 0;
     font-size: 38px;
     line-height: 48px;
-    color: white;
+    color: #67595E;
   }
   
   .weather-app-details {
@@ -113,7 +113,7 @@ body {
   .weather-app-temperature {
     font-size: 88px;
     font-weight: bold;
-    color: #ffffff;
+    color: #67595E;
   
     line-height: 88px;
   }
@@ -121,7 +121,7 @@ body {
   .weather-app-unit {
     font-size: 28px;
     margin-top: 6px;
-    color: #ffffff;
+    color: #67595E;
   }
   
   footer {
