@@ -11,39 +11,58 @@
     <title>Weather App</title>
 </head>
 <body>
-    <div class="weather-app">
-<header>
+<div class="weather-app">
+ <header>
     <form class="search-form" id="search-form">
-    <input type="search" placeholder="Enter a city...">
-    <input type="submit" value="Search" class="search-form-button">
+        <input
+        type="search"
+        placeholder="Enter a city"
+        required
+        class="search-form-input"
+        id="search-form-input"/>
+        <input
+        type="submit"
+        value="Search!"
+        class="search-form button"/>
     </form>
-</header>
-<div class="weather-app-data">
-    <div>
-        <h1 class="city" id="city"></h1>
-        <p class="details">
-        <span id="time">Friday 11:49</span>
-        <span id="description">light rain</span>
-        <br>
-        Humidity:<strong id="Humidity">91%</strong>, Wind:
-        <strong id="wind-speed">2.06km/h</strong>
-        </p>
+ </header>
+ <main>
+    <div class="weather-app-data">
+        <div>
+            <h1 class="weather-app-city" id="weather-app-city"></h1>
+            <p class="weather-app-details">
+                <span id="time"></span>,
+                <span id="desciption"></span>
+                <br>
+                Humidity: <strong id="humidity"></strong>,
+                Wind:
+                <strong id="wind-speed"></strong>
+            </p>
+        </div>
+        <div class="weather-app-temperature-container">
+            <div id="icon"
+            <img
+            class="weather-app-icon"
+            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+            />
+        </div>
+        <div
+        class="weather-app-temperature"
+        id="weather-app-temperature">
     </div>
-</div>
-<div class="temperature-container">
-    <div id="icon" src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"</div>
-    <div class="temperature" id="temperature">18</div>
-    <div class="weather-unit">°C</div>
-</div>
+    <div class="weather-app-unit">°C
+    </div>
+    </div>
+ </main>
 <footer>
     This Project was coded by
-    <a href="#" target="_blank"> Keesha Kallasur</a>,
+    <a href="#" target="_blank"> Keesha K</a>,
     is 
     <a href="#" target="_blank">open-sourced on Github</a>
     and
     <a href="#" target="_blank">hosted on Netlify</a>
 </footer>
-   
+
     <link ref="script" href="src/script.js">
 </body>
 </html>
